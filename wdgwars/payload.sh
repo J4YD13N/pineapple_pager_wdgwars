@@ -2,7 +2,7 @@
 # Title: WDGoWars Wardriver
 # Description: WiFi + BLE wardriver for wdgwars.pl (offline-first, GPS required)
 # Author: LOCOSP
-# Version: 1.0
+# Version: 1.1
 # Category: Reconnaissance
 # Library: libpagerctl.so (pagerctl)
 

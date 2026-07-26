@@ -55,6 +55,11 @@ wdgwars/
 └── uploader/           # multipart POST (v1 sync / v2 async queue) + history
 ```
 
+> **Upgrading from 1.0?** `scan.dedup_ttl_s` was renamed to
+> `scan.refresh_ttl_s` because its meaning changed, and `tcpdump-mini` is a
+> new optional dependency for the monitor-mode backend. See
+> [CHANGELOG.md](CHANGELOG.md).
+
 ## Install on the pager
 
 **From your laptop** (not from an SSH session on the pager):
